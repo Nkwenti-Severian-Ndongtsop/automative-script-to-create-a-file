@@ -8,5 +8,5 @@ if [[ $file == *.sh ]]; then
     echo '#!/bin/bash' > "$file"
 nano "$file"
 else
-    echo "please try with .sh extension"
+    echo "please try with the .sh extension on the file name"
 fi
